@@ -1,0 +1,50 @@
+.home-page {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  margin-bottom: 32px;
+}
+
+.hero-title {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.hero-subtitle {
+  opacity: 0.8;
+}
+
+.slider-container {
+  margin-top: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.slider-track {
+  display: flex;
+  gap: 16px;
+}
+
+.slider-card {
+  min-width: 220px;
+  max-width: 220px;
+  background: #0b1024;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.slider-poster {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.slider-body {
+  padding: 8px 10px 12px;
+  font-size: 13px;
+}

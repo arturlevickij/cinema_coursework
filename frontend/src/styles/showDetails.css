@@ -1,0 +1,20 @@
+.show-details-page {
+  padding: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.show-details-meta {
+  opacity: 0.85;
+}
+
+.seatmap-wrapper {
+  margin-top: 20px;
+  padding: 16px;
+  background: #0b1024;
+  border-radius: 8px;
+}
+
+.seatmap-title {
+  margin-top: 0;
+}

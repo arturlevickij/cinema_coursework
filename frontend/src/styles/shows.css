@@ -1,0 +1,25 @@
+.shows-page {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.shows-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.show-card-title {
+  margin-top: 0;
+}
+
+.show-card-description {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.show-card-meta {
+  font-size: 14px;
+  margin-top: 8px;
+}

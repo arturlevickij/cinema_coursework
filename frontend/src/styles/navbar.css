@@ -1,0 +1,38 @@
+.navbar {
+  padding: 10px 24px;
+  background: #080c1f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-logo {
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.navbar-logo span {
+  color: #ffcc33;
+}
+
+.navbar-links a {
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+.navbar-user {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-right: 8px;
+}
